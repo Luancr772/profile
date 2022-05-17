@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: linear-gradient(to right top, #58aec3, #ccdde4);
+    display: flex;
+}
+
+.header {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.circle {
+    top: 10%;
+    left: 4%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+    height: 14rem;
+    width: 14rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    margin-top: 30px;
+}
+
+.imguser {
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 15px 15px;
+}
+
+.perinf {
+    display: flex;
+    position: relative;
+}
+
+.name {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.job {
+    padding: 10px 23px;
+    
+}
+
+.social {
+    display: flex;
+    padding: 10px 23px;
+}
+
+.fb  {
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+.tiktok {
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+.mess {
+    font-size: 18px;
+}
+
+.perinf::before {
+    content: "";
+    background-color: #c2c4c5;
+    position: absolute;
+    right: -66%;
+    top: 15%;
+    height: 100px;
+    width: 1px;
+}
+.addandnumberphone,
+.emailandbirth {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding-right: 350px;
+    padding-top: 25px;
+}
+
+.EMAIL {
+    margin-right: 80px
+}
+
+.addandnumberphone {
+    margin: 50px -55px;
+}
+
+.numberphone {
+    margin-right: 134px;
+}
+
+.content {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 40px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 10px;
+}
+
+.content__bobby,
+.content__study,
+.content__target,
+.content__introduce {
+    padding: 20px 30px;
+}
+
+.title {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.title::before {
+    content: "";
+    background-image: linear-gradient( 142.17deg,#cc2dc4 6.66%,#cead1c 91.48%);
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+    bottom: 0;
+}
+
+.content_stydy--cont,
+.content_target--cont,
+.content_introduce--cont {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+/* .content_target--cont {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 30px;
+} */
+
+.title_movie,
+.title_game {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.movie,
+.game {
+    padding-left: 50px;
+}
+
+.click_movie, 
+.click_game {
+    display: flex;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+    height: 140px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 20%);
+    text-decoration: none;
+}
+
+.click_movie:hover,
+.click_game:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    box-shadow: 0 8px 12px rgb(0 0 0 / 30%);
+    transition: all 0.2s linear;
+}
+
+.left_game img {
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 230px;
+    height: 140px;
+}
+
+.right_game {
+    padding: 20px 30px;
+    color: black;
+}
+
+.name_game {
+    font-size: 20px;
+}
+
+.content_game {
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.click_movie{
+    margin-top: 20px;
+}
+
+
+    
